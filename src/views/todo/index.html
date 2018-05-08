@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body:lang(zh-TW) {
+            font-family: 'PingFang TC','Helvetica Neue',Helvetica,Arial,sans-serif;
+        }
+
+        body{
+            font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            line-height: 1.428571429;
+            color: #333;
+            background-color: #F5F6FA;
+        }
+        p{
+            font-size: 14px;
+            color: #B4BACC;
+        }
+        .parent{
+            /*font-size: 0;*/
+            vertical-align: middle;
+        }
+        a{
+            display: inline-block;
+            width:50px;
+            height: 50px;
+            font-size: 16px;
+            border:solid 1px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body lang="zh-TW">
+    <div class="parent">
+        <a>1</a><a>2</a><a>3</a><a>4</a>
+        <input type="range" value="0">
+        <p>
+            我们都是神枪手
+            外观
+        </p>
+        <p lang="zh-CN" dir="rtl">你好</p>
+        <p lang="en-US">hello</p>
+        <p lang="ja-JP">こんにちは</p>
+        <p lang="ko-KR">안녕하세요</p>
+    </div>
+    <script>
+        // var a = 1,
+        //     b = function a(x) {
+        //         return x && a(--x);
+        //     };
+
+        // alert(b(1));
+        // alert(a);
+        var a = function(){
+            alert(1);
+        }
+        // function a(){
+        //     alert(1);
+        // }
+        // var a = 1;
+        // alert(a);
+    </script>
+</body>
+</html>
